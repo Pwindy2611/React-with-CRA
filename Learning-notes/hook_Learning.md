@@ -15,3 +15,5 @@ funtion Component()
 * Nếu muốn tạo giá trị mặc định dưới dạng return giá trị của 1 function thì nên cài funtion trực tiếp vào useState và viết dưới dạng arrow function
 
 # useEffect Hook
+import {useEffect} from 'react'
+
