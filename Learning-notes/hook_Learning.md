@@ -16,4 +16,11 @@ funtion Component()
 
 # useEffect Hook
 import {useEffect} from 'react'
-
+. Callback luôn được gọi sau khi component mounted
+* useEffect(callback)
+. gọi callback mỗi khi component re-render
+. gọi callback sau khi component thêm element vào DOM
+* useEffect(callback, [] )
+. chỉ gọi callback 1 lần sau khi component mounted
+* useEffect(callback,[dependencies])
+. callback sẽ được gọi lại khi dependecies thay đổi (lính canh)
